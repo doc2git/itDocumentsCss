@@ -1,113 +1,172 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<title>使用fiddler将网站上的css js重定向至本地文件，进行在线调试 - 拧头一个 | aWeBird®</title>
-<link rel="profile" href="http://gmpg.org/xfn/11">
-<link rel="pingback" href="http://awebird.com/blog/xmlrpc.php">
-<!--[if lt IE 9]>
-<script src="http://awebird.com/blog/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
-<![endif]-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>使用fiddler将网站上的css js重定向至本地文件，进行在线调试 - 拧头一个 | aWeBird®</title>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://awebird.com/blog/xmlrpc.php">
+    <!--[if lt IE 9]>
+    <script src="http://awebird.com/blog/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+    <![endif]-->
 
-<!-- This site is optimized with the Yoast SEO plugin v4.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
-<link rel="canonical" href="http://awebird.com/blog/art/108">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:type" content="article">
-<meta property="og:title" content="使用fiddler将网站上的css js重定向至本地文件，进行在线调试 - 拧头一个 | aWeBird®">
-<meta property="og:description" content="这是一篇写给公司负责切图和调样式的前端的文章。主要适用于一个项目临时需要调整下css或者js，为了一点修改让前 …">
-<meta property="og:url" content="http://awebird.com/blog/art/108">
-<meta property="og:site_name" content="拧头一个 | aWeBird®">
-<meta property="article:tag" content="css">
-<meta property="article:tag" content="fiddler">
-<meta property="article:tag" content="javascript">
-<meta property="article:tag" content="调试，前端">
-<meta property="article:section" content="技术">
-<meta property="article:published_time" content="2013-08-20T21:12:43+00:00">
-<meta property="article:modified_time" content="2013-08-20T21:19:54+00:00">
-<meta property="og:updated_time" content="2013-08-20T21:19:54+00:00">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/8-300x88.jpg">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag1.jpg">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag2-300x81.jpg">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/3-300x184.jpg">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/4-300x113.png">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/41-300x106.jpg">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/5-300x75.jpg">
-<meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/6.jpg">
-<!-- / Yoast SEO plugin. -->
+    <!-- This site is optimized with the Yoast SEO plugin v4.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+    <link rel="canonical" href="http://awebird.com/blog/art/108">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="使用fiddler将网站上的css js重定向至本地文件，进行在线调试 - 拧头一个 | aWeBird®">
+    <meta property="og:description" content="这是一篇写给公司负责切图和调样式的前端的文章。主要适用于一个项目临时需要调整下css或者js，为了一点修改让前 …">
+    <meta property="og:url" content="http://awebird.com/blog/art/108">
+    <meta property="og:site_name" content="拧头一个 | aWeBird®">
+    <meta property="article:tag" content="css">
+    <meta property="article:tag" content="fiddler">
+    <meta property="article:tag" content="javascript">
+    <meta property="article:tag" content="调试，前端">
+    <meta property="article:section" content="技术">
+    <meta property="article:published_time" content="2013-08-20T21:12:43+00:00">
+    <meta property="article:modified_time" content="2013-08-20T21:19:54+00:00">
+    <meta property="og:updated_time" content="2013-08-20T21:19:54+00:00">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/8-300x88.jpg">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag1.jpg">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag2-300x81.jpg">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/3-300x184.jpg">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/4-300x113.png">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/41-300x106.jpg">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/5-300x75.jpg">
+    <meta property="og:image" content="http://awebird.com/blog/wp-content/uploads/2013/08/6.jpg">
+    <!-- / Yoast SEO plugin. -->
 
-<link rel="dns-prefetch" href="http://s.w.org/">
-<link rel="alternate" type="application/rss+xml" title="拧头一个 | aWeBird® » Feed" href="http://awebird.com/blog/feed">
-<link rel="alternate" type="application/rss+xml" title="拧头一个 | aWeBird® » 评论Feed" href="http://awebird.com/blog/comments/feed">
-<link rel="alternate" type="application/rss+xml" title="拧头一个 | aWeBird® » 使用fiddler将网站上的css js重定向至本地文件，进行在线调试评论Feed" href="http://awebird.com/blog/art/108/feed">
-		<script async="" src="about:blank"></script><script type="text/javascript">/* Code removed by ScrapBook */</script><script src="about:blank" type="text/javascript" defer=""></script>
-		<style type="text/css">
-/* Code tidied up by ScrapBook */
-</style>
-<link rel="stylesheet" id="twentytwelve-style-css" href="style.css" type="text/css" media="all">
-<!--[if lt IE 9]>
-<link rel='stylesheet' id='twentytwelve-ie-css'  href='http://awebird.com/blog/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
-<![endif]-->
-<link rel="stylesheet" id="wpcirrus-cloudStyle-css" href="cirrusCloud.css" type="text/css" media="all">
-<link rel="stylesheet" id="core3.0-css" href="shCore.css" type="text/css" media="all">
-<link rel="stylesheet" id="core-Django3.0-css" href="shCoreDjango.css" type="text/css" media="all">
-<link rel="stylesheet" id="theme-Django3.0-css" href="shThemeDjango.css" type="text/css" media="all">
-<script type="text/javascript" src="about:blank"></script>
-<script type="text/javascript" src="about:blank"></script>
-<script type="text/javascript" src="about:blank"></script><script defer="defer">/* Code removed by ScrapBook */</script>
-<script type="text/javascript" src="about:blank"></script>
-<link rel="https://api.w.org/" href="http://awebird.com/blog/wp-json/">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://awebird.com/blog/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://awebird.com/blog/wp-includes/wlwmanifest.xml"> 
-<meta name="generator" content="WordPress 4.7.5">
-<link rel="shortlink" href="http://awebird.com/blog/?p=108">
-<link rel="alternate" type="application/json+oembed" href="http://awebird.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fawebird.com%2Fblog%2Fart%2F108">
-<link rel="alternate" type="text/xml+oembed" href="http://awebird.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fawebird.com%2Fblog%2Fart%2F108&amp;format=xml">
-		<style type="text/css">
-/* Code tidied up by ScrapBook */
-.recentcomments a { display: inline !important; padding: 0px !important; margin: 0px !important; }
-</style>
-		<script>/* Code removed by ScrapBook */</script>
-	<style type="text/css" id="twentytwelve-header-css">
-/* Code tidied up by ScrapBook */
-.site-header h1 a, .site-header h2 { color: rgb(68, 68, 68); }
-</style>
-	<style type="text/css" id="custom-background-css">
-/* Code tidied up by ScrapBook */
-body.custom-background { background-color: rgb(255, 255, 255); }
-</style>
+    <link rel="dns-prefetch" href="http://s.w.org/">
+    <link rel="alternate" type="application/rss+xml" title="拧头一个 | aWeBird® » Feed" href="http://awebird.com/blog/feed">
+    <link rel="alternate" type="application/rss+xml" title="拧头一个 | aWeBird® » 评论Feed"
+          href="http://awebird.com/blog/comments/feed">
+    <link rel="alternate" type="application/rss+xml" title="拧头一个 | aWeBird® » 使用fiddler将网站上的css js重定向至本地文件，进行在线调试评论Feed"
+          href="http://awebird.com/blog/art/108/feed">
+    <script async="" src="about:blank"></script>
+    <script type="text/javascript">/* Code removed by ScrapBook */</script>
+    <script src="about:blank" type="text/javascript" defer=""></script>
+    <style type="text/css">
+        /* Code tidied up by ScrapBook */
+    </style>
+    <link rel="stylesheet" id="twentytwelve-style-css" href="style.css" type="text/css" media="all">
+    <!--[if lt IE 9]>
+    <link rel='stylesheet' id='twentytwelve-ie-css'
+          href='http://awebird.com/blog/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css'
+          media='all'/>
+    <![endif]-->
+    <link rel="stylesheet" id="wpcirrus-cloudStyle-css" href="cirrusCloud.css" type="text/css" media="all">
+    <link rel="stylesheet" id="core3.0-css" href="shCore.css" type="text/css" media="all">
+    <link rel="stylesheet" id="core-Django3.0-css" href="shCoreDjango.css" type="text/css" media="all">
+    <link rel="stylesheet" id="theme-Django3.0-css" href="shThemeDjango.css" type="text/css" media="all">
+    <script type="text/javascript" src="about:blank"></script>
+    <script type="text/javascript" src="about:blank"></script>
+    <script type="text/javascript" src="about:blank"></script>
+    <script defer="defer">/* Code removed by ScrapBook */</script>
+    <script type="text/javascript" src="about:blank"></script>
+    <link rel="https://api.w.org/" href="http://awebird.com/blog/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://awebird.com/blog/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+          href="http://awebird.com/blog/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 4.7.5">
+    <link rel="shortlink" href="http://awebird.com/blog/?p=108">
+    <link rel="alternate" type="application/json+oembed"
+          href="http://awebird.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fawebird.com%2Fblog%2Fart%2F108">
+    <link rel="alternate" type="text/xml+oembed"
+          href="http://awebird.com/blog/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fawebird.com%2Fblog%2Fart%2F108&amp;format=xml">
+    <style type="text/css">
+        /* Code tidied up by ScrapBook */
+        .recentcomments a {
+            display: inline !important;
+            padding: 0px !important;
+            margin: 0px !important;
+        }
+    </style>
+    <script>/* Code removed by ScrapBook */</script>
+    <style type="text/css" id="twentytwelve-header-css">
+        /* Code tidied up by ScrapBook */
+        .site-header h1 a, .site-header h2 {
+            color: rgb(68, 68, 68);
+        }
+    </style>
+    <style type="text/css" id="custom-background-css">
+        /* Code tidied up by ScrapBook */
+        body.custom-background {
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
 </head>
-<body class="post-template-default single single-post postid-108 single-format-standard custom-background custom-background-white single-author"><div id="page" class="hfeed site"><div id="main" class="wrapper"><div id="primary" class="site-content"><div id="content" role="main"><article id="post-108" class="post-108 post type-post status-publish format-standard hentry category-tech tag-css tag-fiddler tag-javascript tag-59"><!--DOCUMENT_FRAGMENT--><header class="entry-header"><h1 class="entry-title">使用fiddler将网站上的css js重定向至本地文件，进行在线调试</h1>
-										<div class="comments-link">
-					<a href="http://awebird.com/blog/art/108#comments">1条回复</a>				</div><!-- .comments-link -->
-					</header><!-- .entry-header -->
+<body class="post-template-default single single-post postid-108 single-format-standard custom-background custom-background-white single-author">
+<div id="page" class="hfeed site">
+    <div id="main" class="wrapper">
+        <div id="primary" class="site-content">
+            <div id="content" role="main">
+                <article id="post-108"
+                         class="post-108 post type-post status-publish format-standard hentry category-tech tag-css tag-fiddler tag-javascript tag-59">
+                    <!--DOCUMENT_FRAGMENT-->
+                    <header class="entry-header"><h1 class="entry-title">使用fiddler将网站上的css js重定向至本地文件，进行在线调试</h1>
+                        <div class="comments-link">
+                            <a href="http://awebird.com/blog/art/108#comments">1条回复</a></div><!-- .comments-link -->
+                    </header><!-- .entry-header -->
 
-				<div class="entry-content">
-			<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/8.jpg"><img class="size-medium wp-image-118 aligncenter" alt="8" src="8-300x88.jpg" srcset="8-300x88.jpg 300w, 8-624x184.jpg 624w, 8.jpg 643w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="88"></a></p>
-<p>这是一篇写给公司负责切图和调样式的前端的文章。主要适用于一个项目临时需要调整下css或者js，为了一点修改让前端人员在本机搭建完整的LAMP环境，导入DB数据，确实很不方便，特别是像我们这样前后端在地理上就分离在两个城市的团队。这里是使用强大的Fiddler2，以修改<a href="http://awebird.com/blog/">本博客</a>网站的云标签插件的样式为例。<span id="more-108"></span></p>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag1.jpg"><img class="alignnone size-full wp-image-109" alt="cloudtag1" src="cloudtag1.jpg" width="176" height="134"></a></p>
-<p><strong>1. 下载安装fiddler2，点击运行</strong></p>
-<p><a href="http://fiddler2.com/get-fiddler">http://fiddler2.com/get-fiddler</a>&nbsp;一般选择fiddler2就可以了</p>
-<p><strong>2. 在浏览器打开需要调试的页面</strong>，比如，如果有浏览器缓存，可以ctrl+F5强制刷新获取最新版本</p>
-<p>任一浏览器打开<a href="http://www.awebird.com/blog/">http://www.awebird.com/blog/</a>，这也是fiddler相对firebug和chrome开发工具的一个优势，它是与浏览器无关，IE甚至opera mobile emulator这种手机模拟器都可以。注意浏览器如果有代理插件的话，fiddler可能检测不到，比如chrome的SwitchSharp，需要选择“使用系统代理设置”</p>
-<p><strong>3. 进行上一步的时候，发现fiddler2中已经有一串串优美的http请求和回应呈现出来了，请选中准备调试的文件</strong> 这里很容易辨别出是下图这个cirrusCloud.css，（如果你不洁身自好的装了360之类的“安全软件”，还能时不时发现自己的隐私数据是怎么被悄悄上传的）</p>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag2.jpg"><img class="alignnone size-medium wp-image-110" alt="cloudtag2" src="cloudtag2-300x81.jpg" srcset="cloudtag2-300x81.jpg 300w, cloudtag2-624x169.jpg 624w, cloudtag2.jpg 668w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="81"></a></p>
-<p>有两个地方要注意下</p>
-<ul>
-<li>调试过程中不断修改js css上传到服务器，重新进入或者刷新页面很有可能使用的是浏览器的旧的缓存版本，这个时候应该先清下缓存，或者多按几次ctrl+F5强制刷新。看到上面的http result是200的话说明是从服务器获取的最新版本</li>
-<li>一般来说服务器端会对js css进行gzip压缩传输，这种情况下，可以点击右侧的黄色提示条解压后就可以看到文本的css内容了</li>
-</ul>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/3.jpg"><img class="alignnone size-medium wp-image-111" alt="3" src="3-300x184.jpg" srcset="3-300x184.jpg 300w, 3.jpg 476w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="184"></a></p>
-<p><strong>4.&nbsp;在右侧的的AutoResponder选项卡选中 下图所示的两项，点击 Add Rule</strong></p>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/4.png"><img class="alignnone size-medium wp-image-112" alt="4" src="4-300x113.png" srcset="4-300x113.png 300w, 4.png 427w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="113"></a></p>
-<p><strong>5.&nbsp;在右下侧的Rule Editor选择“find a file”, 弹出文件选择器，定位到svn本地目录下的相应css文件</strong></p>
-<p>（这里是指开发方式，可以直接定位到svn或者git的client文件夹的对应css文件），这里其实就是一个重定向，当网页渲染请求服务器上的<a href="http://awebird.com/blog/wp-content/themes/twentytwelve/style.css?ver=3.6">http://awebird.com/blog/wp-content/themes/twentytwelve/style.css?ver=3.6</a>文件时根据这里的设置被重定向到本地的文件（如果本机没有，也可以根据上面的链接直接从服务器下载再重定向，也可以在fiddler邮件save and open as local file），比如C:\AppServ\www\myblog\cirrusCloud.css</p>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/41.jpg"><img class="alignnone size-medium wp-image-114" alt="4" src="41-300x106.jpg" srcset="41-300x106.jpg 300w, 41.jpg 451w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="106"></a></p>
-<p>在右上窗口看到新增了一条记录就是服务器到本机的重定向映射规则，以后可以随时添加和删除这些规则</p>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/5.jpg"><img class="alignnone size-medium wp-image-115" alt="5" src="5-300x75.jpg" srcset="5-300x75.jpg 300w, 5.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" width="300" height="75"></a></p>
-<p><strong>6. 经过上面的操作就可以实现修改本机的css文件，调试浏览器里远程环境的效果了</strong></p>
-<p>比如在css中加入如下两条</p>
-<pre>#cirrusCloudWidget a{
+                    <div class="entry-content">
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/8.jpg"><img
+                                class="size-medium wp-image-118 aligncenter" alt="8" src="8-300x88.jpg"
+                                srcset="8-300x88.jpg 300w, 8-624x184.jpg 624w, 8.jpg 643w"
+                                sizes="(max-width: 300px) 100vw, 300px" width="300" height="88"></a></p>
+                        <p>
+                            这是一篇写给公司负责切图和调样式的前端的文章。主要适用于一个项目临时需要调整下css或者js，为了一点修改让前端人员在本机搭建完整的LAMP环境，导入DB数据，确实很不方便，特别是像我们这样前后端在地理上就分离在两个城市的团队。这里是使用强大的Fiddler2，以修改<a
+                                href="http://awebird.com/blog/">本博客</a>网站的云标签插件的样式为例。<span id="more-108"></span></p>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag1.jpg"><img
+                                class="alignnone size-full wp-image-109" alt="cloudtag1" src="cloudtag1.jpg" width="176"
+                                height="134"></a></p>
+                        <p><strong>1. 下载安装fiddler2，点击运行</strong></p>
+                        <p><a href="http://fiddler2.com/get-fiddler">http://fiddler2.com/get-fiddler</a>&nbsp;一般选择fiddler2就可以了
+                        </p>
+                        <p><strong>2. 在浏览器打开需要调试的页面</strong>，比如，如果有浏览器缓存，可以ctrl+F5强制刷新获取最新版本</p>
+                        <p>任一浏览器打开<a href="http://www.awebird.com/blog/">http://www.awebird.com/blog/</a>，这也是fiddler相对firebug和chrome开发工具的一个优势，它是与浏览器无关，IE甚至opera
+                            mobile emulator这种手机模拟器都可以。注意浏览器如果有代理插件的话，fiddler可能检测不到，比如chrome的SwitchSharp，需要选择“使用系统代理设置”
+                        </p>
+                        <p><strong>3. 进行上一步的时候，发现fiddler2中已经有一串串优美的http请求和回应呈现出来了，请选中准备调试的文件</strong>
+                            这里很容易辨别出是下图这个cirrusCloud.css，（如果你不洁身自好的装了360之类的“安全软件”，还能时不时发现自己的隐私数据是怎么被悄悄上传的）</p>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/cloudtag2.jpg"><img
+                                class="alignnone size-medium wp-image-110" alt="cloudtag2" src="cloudtag2-300x81.jpg"
+                                srcset="cloudtag2-300x81.jpg 300w, cloudtag2-624x169.jpg 624w, cloudtag2.jpg 668w"
+                                sizes="(max-width: 300px) 100vw, 300px" width="300" height="81"></a></p>
+                        <p>有两个地方要注意下</p>
+                        <ul>
+                            <li>调试过程中不断修改js
+                                css上传到服务器，重新进入或者刷新页面很有可能使用的是浏览器的旧的缓存版本，这个时候应该先清下缓存，或者多按几次ctrl+F5强制刷新。看到上面的http
+                                result是200的话说明是从服务器获取的最新版本
+                            </li>
+                            <li>一般来说服务器端会对js css进行gzip压缩传输，这种情况下，可以点击右侧的黄色提示条解压后就可以看到文本的css内容了</li>
+                        </ul>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/3.jpg"><img
+                                class="alignnone size-medium wp-image-111" alt="3" src="3-300x184.jpg"
+                                srcset="3-300x184.jpg 300w, 3.jpg 476w" sizes="(max-width: 300px) 100vw, 300px"
+                                width="300" height="184"></a></p>
+                        <p><strong>4.&nbsp;在右侧的的AutoResponder选项卡选中 下图所示的两项，点击 Add Rule</strong></p>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/4.png"><img
+                                class="alignnone size-medium wp-image-112" alt="4" src="4-300x113.png"
+                                srcset="4-300x113.png 300w, 4.png 427w" sizes="(max-width: 300px) 100vw, 300px"
+                                width="300" height="113"></a></p>
+                        <p><strong>5.&nbsp;在右下侧的Rule Editor选择“find a file”, 弹出文件选择器，定位到svn本地目录下的相应css文件</strong></p>
+                        <p>（这里是指开发方式，可以直接定位到svn或者git的client文件夹的对应css文件），这里其实就是一个重定向，当网页渲染请求服务器上的<a
+                                href="http://awebird.com/blog/wp-content/themes/twentytwelve/style.css?ver=3.6">http://awebird.com/blog/wp-content/themes/twentytwelve/style.css?ver=3.6</a>文件时根据这里的设置被重定向到本地的文件（如果本机没有，也可以根据上面的链接直接从服务器下载再重定向，也可以在fiddler邮件save
+                            and open as local file），比如C:\AppServ\www\myblog\cirrusCloud.css</p>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/41.jpg"><img
+                                class="alignnone size-medium wp-image-114" alt="4" src="41-300x106.jpg"
+                                srcset="41-300x106.jpg 300w, 41.jpg 451w" sizes="(max-width: 300px) 100vw, 300px"
+                                width="300" height="106"></a></p>
+                        <p>在右上窗口看到新增了一条记录就是服务器到本机的重定向映射规则，以后可以随时添加和删除这些规则</p>
+                        <p style="color:red">特别注意：在写入映射项之后务必勾选响应规则选择框，“Enable rules”选择框，(以确保映射生效)</p>
+                        <p style="color:red"> “Unmatched requests passthrought”选择框。（以放行未匹配的所有项，若不选，其他网络io都会被fiddler拦截;）</p>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/5.jpg"><img
+                                class="alignnone size-medium wp-image-115" alt="5" src="5-300x75.jpg"
+                                srcset="5-300x75.jpg 300w, 5.jpg 600w" sizes="(max-width: 300px) 100vw, 300px"
+                                width="300" height="75"></a></p>
+                        <p><strong>6. 经过上面的操作就可以实现修改本机的css文件，调试浏览器里远程环境的效果了</strong></p>
+                        <p>比如在css中加入如下两条</p>
+                        <pre>#cirrusCloudWidget a{
     color:green;
 }
 
@@ -115,8 +174,16 @@ body.custom-background { background-color: rgb(255, 255, 255); }
     border: 1px solid red;
     color:red;
 }</pre>
-<p>刷新页面，可以看到云标签的字体变成绿色，被选中的标签变成红色</p>
-<p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/6.jpg"><img class="alignnone size-full wp-image-116" alt="6" src="6.jpg" width="179" height="119"></a></p>
-<p><strong>7. 就是这么简单</strong></p>
-<p>注意，你的修改并没有真的上传到服务器，别人访问网站看到的还是灰色的标签，如果本地映射的就是版本库的话，这时就可以svn commit或者git push，然后等运维更新到服务器环境就可以了。</p></div><!--/DOCUMENT_FRAGMENT--></article></div></div></div></div></body>
+                        <p>刷新页面，可以看到云标签的字体变成绿色，被选中的标签变成红色</p>
+                        <p><a href="http://awebird.com/blog/wp-content/uploads/2013/08/6.jpg"><img
+                                class="alignnone size-full wp-image-116" alt="6" src="6.jpg" width="179"
+                                height="119"></a></p>
+                        <p><strong>7. 就是这么简单</strong></p>
+                        <p>注意，你的修改并没有真的上传到服务器，别人访问网站看到的还是灰色的标签，如果本地映射的就是版本库的话，这时就可以svn commit或者git
+                            push，然后等运维更新到服务器环境就可以了。</p></div><!--/DOCUMENT_FRAGMENT--></article>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
