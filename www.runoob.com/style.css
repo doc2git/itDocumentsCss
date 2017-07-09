@@ -790,6 +790,7 @@ table.browsersupport .bsPreOpera {
     float: right;
     position: relative;
     top: 4rem;
+    right: 1.3rem;
 }
 
 .search {

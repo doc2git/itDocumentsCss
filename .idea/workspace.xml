@@ -21,19 +21,19 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="3671" column="15" lean-forward="false" selection-start-line="3671" selection-start-column="15" selection-end-line="3671" selection-end-column="15" />
+            <state relative-caret-position="333">
+              <caret line="792" column="17" lean-forward="false" selection-start-line="792" selection-start-column="17" selection-end-line="792" selection-end-column="17" />
               <folding>
                 <element signature="e#11741#12372#2" expanded="true" />
-                <element signature="e#17013#17644#2" expanded="true" />
-                <element signature="e#20572#21203#2" expanded="true" />
-                <element signature="e#49874#50505#2" expanded="true" />
-                <element signature="e#51481#52112#2" expanded="true" />
-                <element signature="e#55726#56357#2" expanded="true" />
-                <element signature="e#57167#57798#2" expanded="true" />
-                <element signature="e#58844#59475#2" expanded="true" />
-                <element signature="e#60405#61036#2" expanded="true" />
-                <element signature="e#62090#62721#2" expanded="true" />
+                <element signature="e#17032#17663#2" expanded="true" />
+                <element signature="e#20591#21222#2" expanded="true" />
+                <element signature="e#49893#50524#2" expanded="true" />
+                <element signature="e#51500#52131#2" expanded="true" />
+                <element signature="e#55745#56376#2" expanded="true" />
+                <element signature="e#57186#57817#2" expanded="true" />
+                <element signature="e#58863#59494#2" expanded="true" />
+                <element signature="e#60424#61055#2" expanded="true" />
+                <element signature="e#62109#62740#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -269,12 +269,20 @@
       <workItem from="1499522403827" duration="1113000" />
       <workItem from="1499526185128" duration="2539000" />
       <workItem from="1499532565833" duration="170000" />
-      <workItem from="1499595084817" duration="1301000" />
+      <workItem from="1499595084817" duration="1540000" />
     </task>
+    <task id="LOCAL-00001" summary="resume the search input tag on top of www.runoob.com;">
+      <created>1499596439906</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1499596439906</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11986000" />
+    <option name="totallyTimeSpent" value="12225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="697" height="735" extended-state="0" />
@@ -303,6 +311,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="resume the search input tag on top of www.runoob.com;" />
+    <option name="LAST_COMMIT_MESSAGE" value="resume the search input tag on top of www.runoob.com;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -314,15 +326,15 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#11741#12372#2" expanded="true" />
-            <element signature="e#17013#17644#2" expanded="true" />
-            <element signature="e#20572#21203#2" expanded="true" />
-            <element signature="e#49874#50505#2" expanded="true" />
-            <element signature="e#51481#52112#2" expanded="true" />
-            <element signature="e#55726#56357#2" expanded="true" />
-            <element signature="e#57167#57798#2" expanded="true" />
-            <element signature="e#58844#59475#2" expanded="true" />
-            <element signature="e#60405#61036#2" expanded="true" />
-            <element signature="e#62090#62721#2" expanded="true" />
+            <element signature="e#17032#17663#2" expanded="true" />
+            <element signature="e#20591#21222#2" expanded="true" />
+            <element signature="e#49893#50524#2" expanded="true" />
+            <element signature="e#51500#52131#2" expanded="true" />
+            <element signature="e#55745#56376#2" expanded="true" />
+            <element signature="e#57186#57817#2" expanded="true" />
+            <element signature="e#58863#59494#2" expanded="true" />
+            <element signature="e#60424#61055#2" expanded="true" />
+            <element signature="e#62109#62740#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,19 +500,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="3671" column="15" lean-forward="false" selection-start-line="3671" selection-start-column="15" selection-end-line="3671" selection-end-column="15" />
+        <state relative-caret-position="333">
+          <caret line="792" column="17" lean-forward="false" selection-start-line="792" selection-start-column="17" selection-end-line="792" selection-end-column="17" />
           <folding>
             <element signature="e#11741#12372#2" expanded="true" />
-            <element signature="e#17013#17644#2" expanded="true" />
-            <element signature="e#20572#21203#2" expanded="true" />
-            <element signature="e#49874#50505#2" expanded="true" />
-            <element signature="e#51481#52112#2" expanded="true" />
-            <element signature="e#55726#56357#2" expanded="true" />
-            <element signature="e#57167#57798#2" expanded="true" />
-            <element signature="e#58844#59475#2" expanded="true" />
-            <element signature="e#60405#61036#2" expanded="true" />
-            <element signature="e#62090#62721#2" expanded="true" />
+            <element signature="e#17032#17663#2" expanded="true" />
+            <element signature="e#20591#21222#2" expanded="true" />
+            <element signature="e#49893#50524#2" expanded="true" />
+            <element signature="e#51500#52131#2" expanded="true" />
+            <element signature="e#55745#56376#2" expanded="true" />
+            <element signature="e#57186#57817#2" expanded="true" />
+            <element signature="e#58863#59494#2" expanded="true" />
+            <element signature="e#60424#61055#2" expanded="true" />
+            <element signature="e#62109#62740#2" expanded="true" />
           </folding>
         </state>
       </provider>
