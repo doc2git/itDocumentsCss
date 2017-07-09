@@ -32,7 +32,8 @@ div#htmlfeedback-container * {
 }
 
 div#htmlfeedback-container.unselectable {
-    display: none;
+    /*display: none;*/
+    /*display: block;*/
 }
 div#htmlfeedback-container {
     font-size: 12px;
@@ -784,7 +785,11 @@ table.browsersupport .bsPreOpera {
 }
 
 .row-search-mobile {
-    display: none
+    /*display: none*/
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 4rem;
 }
 
 .search {
@@ -3664,7 +3669,7 @@ p.series-description {
     }
 
     .middle-column {
-        width: 82%
+        width: 78%
     }
 
     .big-middle-column {
