@@ -191,6 +191,7 @@ figure img {
 }
 
 .row {
+    /*display: -webkit-box;*/
     width: 96%;
     max-width: 1140px;
     min-width: 755px;
@@ -250,7 +251,9 @@ div.tutintro img {
 }
 
 .middle-column-home {
-    width: 78%;
+    /*display: table-cell;*/
+    /*width: 78%;*/
+    width: 74%;
     margin-right: 0;
     padding: 12px 20px;
     border: 1px solid #eaeaea;
@@ -3669,7 +3672,12 @@ p.series-description {
         margin-right: 0
     }
 
+    .left-column, .middle-column {
+        display: -webkit-box;
+        /*background-color: blue;*/
+    }
     .middle-column {
+        /*display: table-cell;*/
         width: 78%
     }
 

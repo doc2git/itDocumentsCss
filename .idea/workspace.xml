@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ead86901-3bda-4d9e-b714-a52c5eda82ed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/display-webkit-box_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www.css88.com/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.runoob.com/adsbygoogle.js" afterPath="$PROJECT_DIR$/www.runoob.com/adsbygoogle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.runoob.com/run_prettify.js" afterPath="$PROJECT_DIR$/www.runoob.com/run_prettify.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www.runoob.com/style.css" afterPath="$PROJECT_DIR$/www.runoob.com/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,23 +22,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="792" column="17" lean-forward="false" selection-start-line="792" selection-start-column="17" selection-end-line="792" selection-end-column="17" />
+            <state relative-caret-position="40447">
+              <caret line="3677" column="5" lean-forward="false" selection-start-line="3677" selection-start-column="5" selection-end-line="3677" selection-end-column="5" />
               <folding>
-                <element signature="e#11741#12372#2" expanded="true" />
-                <element signature="e#17032#17663#2" expanded="true" />
-                <element signature="e#20591#21222#2" expanded="true" />
-                <element signature="e#49893#50524#2" expanded="true" />
-                <element signature="e#51500#52131#2" expanded="true" />
-                <element signature="e#55745#56376#2" expanded="true" />
-                <element signature="e#57186#57817#2" expanded="true" />
-                <element signature="e#58863#59494#2" expanded="true" />
-                <element signature="e#60424#61055#2" expanded="true" />
-                <element signature="e#62109#62740#2" expanded="true" />
+                <element signature="e#11820#12451#2" expanded="true" />
+                <element signature="e#17111#17742#2" expanded="true" />
+                <element signature="e#20670#21301#2" expanded="true" />
+                <element signature="e#49972#50603#2" expanded="true" />
+                <element signature="e#51579#52210#2" expanded="true" />
+                <element signature="e#55824#56455#2" expanded="true" />
+                <element signature="e#57265#57896#2" expanded="true" />
+                <element signature="e#58942#59573#2" expanded="true" />
+                <element signature="e#60503#61134#2" expanded="true" />
+                <element signature="e#62188#62819#2" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display-webkit-box_test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/display-webkit-box_test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,7 +56,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www.runoob.com/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4383">
+            <state relative-caret-position="5357">
               <caret line="489" column="15" lean-forward="false" selection-start-line="489" selection-start-column="15" selection-end-line="489" selection-end-column="15" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
@@ -58,8 +72,18 @@
       <file leaf-file-name="adsbygoogle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www.runoob.com/adsbygoogle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="11">
+              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www.css88.com/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="3368" column="16" lean-forward="false" selection-start-line="3368" selection-start-column="16" selection-end-line="3368" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -68,8 +92,8 @@
       <file leaf-file-name="run_prettify.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www.runoob.com/run_prettify.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="5775">
+              <caret line="527" column="27" lean-forward="false" selection-start-line="527" selection-start-column="27" selection-end-line="527" selection-end-column="27" />
               <folding>
                 <element signature="e#0#38#0" expanded="false" />
               </folding>
@@ -82,8 +106,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,10 +130,12 @@
         <option value="$PROJECT_DIR$/es6.ruanyifeng.com/myApp.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/www.runoob.com/myStyle.css" />
+        <option value="$PROJECT_DIR$/www.runoob.com/main.js" />
+        <option value="$PROJECT_DIR$/display-webkit-box_test.html" />
+        <option value="$PROJECT_DIR$/www.runoob.com/style.css" />
         <option value="$PROJECT_DIR$/www.runoob.com/run_prettify.js" />
         <option value="$PROJECT_DIR$/www.runoob.com/adsbygoogle.js" />
-        <option value="$PROJECT_DIR$/www.runoob.com/main.js" />
-        <option value="$PROJECT_DIR$/www.runoob.com/style.css" />
+        <option value="$PROJECT_DIR$/www.css88.com/style.css" />
       </list>
     </option>
   </component>
@@ -119,7 +146,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -139,6 +166,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,16 +193,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentsCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentsCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www.css88.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentsCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="documentsCss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="es6.ruanyifeng.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,7 +325,9 @@
       <workItem from="1499522403827" duration="1113000" />
       <workItem from="1499526185128" duration="2539000" />
       <workItem from="1499532565833" duration="170000" />
-      <workItem from="1499595084817" duration="1540000" />
+      <workItem from="1499595084817" duration="2175000" />
+      <workItem from="1499754864537" duration="2858000" />
+      <workItem from="1501218560114" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="resume the search input tag on top of www.runoob.com;">
       <created>1499596439906</created>
@@ -278,24 +336,31 @@
       <option name="project" value="LOCAL" />
       <updated>1499596439906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="compitable the search input tag on top of www.runoob.com;">
+      <created>1499596652047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499596652047</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12225000" />
+    <option name="totallyTimeSpent" value="16490000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="697" height="735" extended-state="0" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28267476" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28115502" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -313,7 +378,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="resume the search input tag on top of www.runoob.com;" />
-    <option name="LAST_COMMIT_MESSAGE" value="resume the search input tag on top of www.runoob.com;" />
+    <MESSAGE value="compitable the search input tag on top of www.runoob.com;" />
+    <option name="LAST_COMMIT_MESSAGE" value="compitable the search input tag on top of www.runoob.com;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -322,19 +388,129 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40447">
+          <caret line="3677" column="5" lean-forward="false" selection-start-line="3677" selection-start-column="5" selection-end-line="3677" selection-end-column="5" />
+          <folding>
+            <element signature="e#11820#12451#2" expanded="true" />
+            <element signature="e#17111#17742#2" expanded="true" />
+            <element signature="e#20670#21301#2" expanded="true" />
+            <element signature="e#49972#50603#2" expanded="true" />
+            <element signature="e#51579#52210#2" expanded="true" />
+            <element signature="e#55824#56455#2" expanded="true" />
+            <element signature="e#57265#57896#2" expanded="true" />
+            <element signature="e#58942#59573#2" expanded="true" />
+            <element signature="e#60503#61134#2" expanded="true" />
+            <element signature="e#62188#62819#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/display-webkit-box_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5357">
+          <caret line="489" column="15" lean-forward="false" selection-start-line="489" selection-start-column="15" selection-end-line="489" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+            <marker date="1499541077428" expanded="true" signature="1007:1055" ph="..." />
+            <marker date="1499541077428" expanded="true" signature="4424:4431" ph="»" />
+            <marker date="1499541077428" expanded="true" signature="5402:5409" ph="»" />
+            <marker date="1499541077428" expanded="true" signature="14937:15080" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/run_prettify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5775">
+          <caret line="527" column="27" lean-forward="false" selection-start-line="527" selection-start-column="27" selection-end-line="527" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/adsbygoogle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#11741#12372#2" expanded="true" />
-            <element signature="e#17032#17663#2" expanded="true" />
-            <element signature="e#20591#21222#2" expanded="true" />
-            <element signature="e#49893#50524#2" expanded="true" />
-            <element signature="e#51500#52131#2" expanded="true" />
-            <element signature="e#55745#56376#2" expanded="true" />
-            <element signature="e#57186#57817#2" expanded="true" />
-            <element signature="e#58863#59494#2" expanded="true" />
-            <element signature="e#60424#61055#2" expanded="true" />
-            <element signature="e#62109#62740#2" expanded="true" />
+            <element signature="e#11820#12451#2" expanded="true" />
+            <element signature="e#17111#17742#2" expanded="true" />
+            <element signature="e#20670#21301#2" expanded="true" />
+            <element signature="e#49972#50603#2" expanded="true" />
+            <element signature="e#51579#52210#2" expanded="true" />
+            <element signature="e#55824#56455#2" expanded="true" />
+            <element signature="e#57265#57896#2" expanded="true" />
+            <element signature="e#58942#59573#2" expanded="true" />
+            <element signature="e#60503#61134#2" expanded="true" />
+            <element signature="e#62188#62819#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4383">
+          <caret line="489" column="15" lean-forward="false" selection-start-line="489" selection-start-column="15" selection-end-line="489" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+            <marker date="1499541077428" expanded="true" signature="1007:1055" ph="..." />
+            <marker date="1499541077428" expanded="true" signature="4424:4431" ph="»" />
+            <marker date="1499541077428" expanded="true" signature="5402:5409" ph="»" />
+            <marker date="1499541077428" expanded="true" signature="14937:15080" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/adsbygoogle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/run_prettify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#11820#12451#2" expanded="true" />
+            <element signature="e#17111#17742#2" expanded="true" />
+            <element signature="e#20670#21301#2" expanded="true" />
+            <element signature="e#49972#50603#2" expanded="true" />
+            <element signature="e#51579#52210#2" expanded="true" />
+            <element signature="e#55824#56455#2" expanded="true" />
+            <element signature="e#57265#57896#2" expanded="true" />
+            <element signature="e#58942#59573#2" expanded="true" />
+            <element signature="e#60503#61134#2" expanded="true" />
+            <element signature="e#62188#62819#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -466,27 +642,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www.runoob.com/run_prettify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.runoob.com/adsbygoogle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www.runoob.com/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4383">
+        <state relative-caret-position="5357">
           <caret line="489" column="15" lean-forward="false" selection-start-line="489" selection-start-column="15" selection-end-line="489" selection-end-column="15" />
           <folding>
             <element signature="e#0#38#0" expanded="false" />
@@ -498,22 +656,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/display-webkit-box_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www.runoob.com/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="792" column="17" lean-forward="false" selection-start-line="792" selection-start-column="17" selection-end-line="792" selection-end-column="17" />
+        <state relative-caret-position="40447">
+          <caret line="3677" column="5" lean-forward="false" selection-start-line="3677" selection-start-column="5" selection-end-line="3677" selection-end-column="5" />
           <folding>
-            <element signature="e#11741#12372#2" expanded="true" />
-            <element signature="e#17032#17663#2" expanded="true" />
-            <element signature="e#20591#21222#2" expanded="true" />
-            <element signature="e#49893#50524#2" expanded="true" />
-            <element signature="e#51500#52131#2" expanded="true" />
-            <element signature="e#55745#56376#2" expanded="true" />
-            <element signature="e#57186#57817#2" expanded="true" />
-            <element signature="e#58863#59494#2" expanded="true" />
-            <element signature="e#60424#61055#2" expanded="true" />
-            <element signature="e#62109#62740#2" expanded="true" />
+            <element signature="e#11820#12451#2" expanded="true" />
+            <element signature="e#17111#17742#2" expanded="true" />
+            <element signature="e#20670#21301#2" expanded="true" />
+            <element signature="e#49972#50603#2" expanded="true" />
+            <element signature="e#51579#52210#2" expanded="true" />
+            <element signature="e#55824#56455#2" expanded="true" />
+            <element signature="e#57265#57896#2" expanded="true" />
+            <element signature="e#58942#59573#2" expanded="true" />
+            <element signature="e#60503#61134#2" expanded="true" />
+            <element signature="e#62188#62819#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/run_prettify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5775">
+          <caret line="527" column="27" lean-forward="false" selection-start-line="527" selection-start-column="27" selection-end-line="527" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.runoob.com/adsbygoogle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.css88.com/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="3368" column="16" lean-forward="false" selection-start-line="3368" selection-start-column="16" selection-end-line="3368" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

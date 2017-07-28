@@ -4,8 +4,8 @@
 console.log(4);
 
 //2017/7/9 设置左侧边栏等高于文章div块；
-var leftColumn = document.getElementsByClassName(".left-column")[0];
-var sidebarBox = document.getElementsByClassName(".sidebar-box")[0];
+var leftColumn = document.getElementsByClassName("left-column")[0];
+var sidebarBox = document.getElementsByClassName("sidebar-box")[0];
 sidebarBox.style["height"] = document.getElementsByClassName("article")[0].offsetHeight + "px";
 leftColumn.style["height"] = document.getElementsByClassName("article")[0].offsetHeight + "px";
 console.log(sidebarBox.style.height, leftColumn.style.height);

@@ -1,7 +1,7 @@
 /**
  * Created by jsh on 2017/7/9.
  */
-console.log(4);
+// console.log(4);
 !function () {
     var r = null;
     (function () {
@@ -525,4 +525,4 @@ console.log(4);
         R || P(Q, 0)
     })();
 }()
-console.log(527);
+console.log("run_prettify.js", 527);
